@@ -88,7 +88,7 @@ JalaliDate.jalaliToGregorian = function(j_y, j_m, j_d) {
 <input type="text" value="00" minlength="2" maxlength="2" id="phour">
 <label for="">دقیقه</label>
 <input type="text" value="00" minlength="2" maxlength="2" id="pminiute">
-<input type="text" value="هیجا" id="ploc">
+<input type="text" value="کرج" id="ploc">
 </br>
 
 <input type="button" value="Lets go" onclick="gotime()">
@@ -149,16 +149,16 @@ Celestial.display({
     names: true,
     namesType: "en",
     nameStyle: { fill:"#fff", align: "center", baseline: "middle",
-                 font: ["12px kalameh, Arial, kalame",  // Style for constellations
-                        "12px kalameh, Arial, kalame",  // Different fonts for diff.
-                        "10px kalameh, Arial, kalame"]},// ranked constellations
+                 font: ["8px sans serif, Arial, Arial",  // Style for constellations
+                        "6px sans serif, Arial, Arial",  // Different fonts for diff.
+                        "5px sans serif, Arial, Arial"]},// ranked constellations
 
   lines: true,   // Show constellation lines, style below
   lineStyle: { stroke: "#fff", width: 1, opacity: 1 }
 },
   stars: {
     show: true,
-    limit: 6,
+    limit: 5.2,
     size: 5,
     names: false,
     propername: false,
